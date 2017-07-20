@@ -15,6 +15,7 @@
 		58886B0F1F20B5E10088F31F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 58886B0E1F20B5E10088F31F /* GoogleService-Info.plist */; };
 		58886B111F20CFA90088F31F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58886B101F20CFA90088F31F /* ViewController.swift */; };
 		58886B131F20D03F0088F31F /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58886B121F20D03F0088F31F /* ComposeViewController.swift */; };
+		58886B171F20FA2C0088F31F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58886B161F20FA2C0088F31F /* LoginViewController.swift */; };
 		E4B2460C4B1AF2ED2DB3A012 /* Pods_SVChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A590A04DF40B7974978134DD /* Pods_SVChat.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		58886B0E1F20B5E10088F31F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		58886B101F20CFA90088F31F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		58886B121F20D03F0088F31F /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		58886B161F20FA2C0088F31F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		718466E94C7979694966D8C5 /* Pods-SVChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SVChat/Pods-SVChat.debug.xcconfig"; sourceTree = "<group>"; };
 		A590A04DF40B7974978134DD /* Pods_SVChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SVChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9CB2644371E8DEE443BDB79 /* Pods-SVChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-SVChat/Pods-SVChat.release.xcconfig"; sourceTree = "<group>"; };
@@ -75,8 +77,8 @@
 		58886AF81F20AD170088F31F /* SVChat */ = {
 			isa = PBXGroup;
 			children = (
-				58886AF91F20AD170088F31F /* AppDelegate.swift */,
-				58886B101F20CFA90088F31F /* ViewController.swift */,
+				58886B151F20F9F50088F31F /* Login */,
+				58886B141F20F9DC0088F31F /* Chat */,
 				58886B121F20D03F0088F31F /* ComposeViewController.swift */,
 				58886AFD1F20AD170088F31F /* Main.storyboard */,
 				58886B031F20AD170088F31F /* Assets.xcassets */,
@@ -86,6 +88,23 @@
 				58886B001F20AD170088F31F /* SVChat.xcdatamodeld */,
 			);
 			path = SVChat;
+			sourceTree = "<group>";
+		};
+		58886B141F20F9DC0088F31F /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				58886AF91F20AD170088F31F /* AppDelegate.swift */,
+				58886B101F20CFA90088F31F /* ViewController.swift */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		58886B151F20F9F50088F31F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				58886B161F20FA2C0088F31F /* LoginViewController.swift */,
+			);
+			name = Login;
 			sourceTree = "<group>";
 		};
 		A85A832703AFB22798B0291C /* Pods */ = {
@@ -225,6 +244,7 @@
 				58886B111F20CFA90088F31F /* ViewController.swift in Sources */,
 				58886B021F20AD170088F31F /* SVChat.xcdatamodeld in Sources */,
 				58886AFA1F20AD170088F31F /* AppDelegate.swift in Sources */,
+				58886B171F20FA2C0088F31F /* LoginViewController.swift in Sources */,
 				58886B131F20D03F0088F31F /* ComposeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
