@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>613802999871-q7m3vildf4ejm1lfd1m61jcvca7evvvi.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.613802999871-q7m3vildf4ejm1lfd1m61jcvca7evvvi</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAfCA7XrvnOH6cN33kopa7rZw0wQBoH4jw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>613802999871</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>sergey.SVChat</string>
+	<key>PROJECT_ID</key>
+	<string>svchat-e7700</string>
+	<key>STORAGE_BUCKET</key>
+	<string>svchat-e7700.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:613802999871:ios:755accf4c0d3323d</string>
+	<key>DATABASE_URL</key>
+	<string>https://svchat-e7700.firebaseio.com</string>
+</dict>
+</plist>
